@@ -1,1 +1,1 @@
-GallerySystem
+ImageGallery
