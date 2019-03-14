@@ -15,6 +15,7 @@ import { environment } from '../environments/environment';
 import { DropzoneDirective } from './dropzone.directive';
 import { UploaderComponent } from './uploader/uploader.component';
 import { UploadTaskComponent } from './upload-task/upload-task.component';
+import { UiModule } from './ui/ui.module';
 
 
 const config = {
@@ -36,6 +37,7 @@ const config = {
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
+    UiModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
